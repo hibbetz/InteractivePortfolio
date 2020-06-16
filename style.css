@@ -1,74 +1,47 @@
-.projectlinks{
-  width:100%;
+.navbar-custom{
+  background-color: black;
 }
-
-.banner{
-  display:none;  
+.nav-link{
+  color: orange;
 }
-
-.Project-One-Info{
-  width:100%
+.nav-link:hover{
+  color: white;
 }
-
-.Project-One-Info h3{
-  padding: 8px 10px 5px;
-  font-family:arial;
+.custom-toggler.navbar-toggler {
+    border-color: orange;
+    background-image: url(https://i.imgur.com/smStP2o.png);
+}
+.card-img-top:hover{
+  filter:grayscale(80%) blur(3px);
+}
+.display-4{
+  text-align: center;
+  color: orange;
+}
+.card-title{
+  padding: 5px;
   font-size: 20px;
-  color: #a9a9a9;
-  line-height: 20px
+  font-style: oblique;
+  text-align: center;
 }
-
-.Project-One-Info p{
-  padding: 0px 10px 5px;
-  font-family:arial;
-  font-size: 16px;
-  color: #a9a9a9;
-  line-height: 18px
+.card-text{
+  padding: 8px;
+  font-size: 15px;
+  font-style: oblique;
 }
-
-.project-one-img{
-  width:100%;
+.card-block-easy{
+  background-color: #98fb98;
 }
-
-@media only screen and (min-width: 768px) {
-  .banner{
-  display:block;
-  width: 100%;
-  padding-bottom: 8px;
-  }
-.projectlinks{
-  width:600px;
-  margin: 0 auto;
-  }
-  .Project-One-Info h3{
-  padding: 8px 0px 0px;
+.card-block-medium{
+  background-color:  #FFFF9E;
 }
-
-.Project-One-Info p{
-  padding: 15px 0px 0px;
-  }
-.project-one-img{
-  padding-top: 30px;
-  }
+.card-block-hard{
+  background-color: #fa867e;
 }
-@media only screen and (min-width: 1000px) {
- .projectlinks{
-  width:1000px;
-  }
- .Project-One-Info{
-  width:50%;
-  float: right;
-  }
-    .Project-One-Info h3{
-  padding: 8px 0px 0px 10px;
+.card-img-top {
+    width: auto;
+    height: auto;
 }
-
-.Project-One-Info p{
-  padding: 15px 0px 0px 10px;
-  }
-.project-one-img{
-  padding-top: 0px;
-  width: 50%;
-  float: left;
-  }
+body{
+  background-color: #f2f2f2 !important;
 }
