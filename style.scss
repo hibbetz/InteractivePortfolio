@@ -1,54 +1,63 @@
-
-.nav-link{
+.nav-link {
   color: orange;
+
+  &:hover {
+    color: white;
+  }
 }
-.nav-link:hover{
-  color: white;
+
+.card-img-top:hover {
+  filter: grayscale(80%) blur(3px);
 }
-.card-img-top:hover{
-  filter:grayscale(80%) blur(3px);
-}
-.display-4{
+
+.display-4 {
   text-align: center;
   color: orange;
 }
-.card-block-easy{
+
+.card-block-easy {
   background-color: #98fb98;
 }
-.card-block-medium{
-  background-color:  #FFFF9E;
+
+.card-block-medium {
+  background-color: #FFFF9E;
 }
-.card-block-hard{
+
+.card-block-hard {
   background-color: #fa867e;
 }
+
 .card-img-top {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
-.card-title{
+
+.card-title {
   padding: 5px;
   font-size: 20px;
   font-style: oblique;
   text-align: center;
 }
-.card-text{
+
+.card-text {
   padding: 8px;
   font-size: 15px;
   font-style: oblique;
 }
-body{
+
+body {
   background-color: #f2f2f2 !important;
-   height: 100%
+  height: 100%;
 }
-h3{
+
+h3, h2 {
   color: orange !important;
 }
-h2{
-  color: orange !important;
+
+.jobs {
+  padding-left: 9% !important;
 }
-.jobs{
-  padding-left: 9% !important
-}
+
 .middle {
   position: absolute;
   top: 50%;
@@ -56,10 +65,4 @@ h2{
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-}
-.finishedsite {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
