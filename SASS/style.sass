@@ -1,0 +1,64 @@
+$bgcolor: #f2f2f2
+$navcolour: #ff8c69
+$navhover: white
+$textcolor: black
+$headercolour: #ff8c69
+$cardtitlesize: 20px
+$cardtextsize: 15px
+$cardtextstyle: oblique
+$myfont: Helvetica
+
+.nav-link
+  color: $navcolour
+
+  &:hover
+    color: $navhover
+
+.display-4
+  text-align: center
+  color: $headercolour
+
+.card-block-easy
+  background-color: #98fb98
+
+.card-block-medium
+  background-color: #FFFF9E
+
+.card-block-hard
+  background-color: #fa867e
+
+.card-img-top
+  width: auto
+  height: auto
+  &:hover
+    filter: grayscale(80%) blur(3px)
+
+.card-title
+  padding: 5px
+  font-size: $cardtitlesize
+  font-style: $cardtextstyle
+  text-align: center
+
+.card-text
+  padding: 8px
+  font-size: $cardtextsize
+  font-style: $cardtextstyle
+
+body
+  background-color: $bgcolor !important
+  height: 100%
+
+h3, h2
+  color: $headercolour !important
+
+.jobs
+  padding-left: 9% !important
+
+.middle
+  font-family: $myfont
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  text-align: center
+  color: white

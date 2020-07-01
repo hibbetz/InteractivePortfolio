@@ -1,0 +1,47 @@
+.nav-link {
+  color: #ff8c69; }
+  .nav-link:hover {
+    color: white; }
+
+.display-4 {
+  text-align: center;
+  color: #ff8c69; }
+
+.card-block-easy {
+  background-color: #98fb98; }
+
+.card-block-medium {
+  background-color: #FFFF9E; }
+
+.card-block-hard {
+  background-color: #fa867e; }
+
+.card-img-top {
+  width: auto;
+  height: auto; }
+  .card-img-top:hover {
+    filter: grayscale(80%) blur(3px); }
+
+.card-title {
+  padding: 5px;
+  font-size: 20px;
+  font-style: oblique;
+  text-align: center; }
+
+.card-text {
+  padding: 8px;
+  font-size: 15px;
+  font-style: oblique; }
+
+body {
+  background-color: #f2f2f2 !important;
+  height: 100%; }
+
+h3, h2 {
+  color: #ff8c69 !important; }
+
+.jobs {
+  padding-left: 9% !important; }
+
+.middle {
+    text-align: center;

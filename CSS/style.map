@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../SASS/style.sass"
+	],
+	"sourcesContent": [
+		".nav-link {\n  color: orange;\n\n  &:hover {\n    color: white; } }\n\n.card-img-top:hover {\n  filter: grayscale(80%) blur(3px); }\n\n.display-4 {\n  text-align: center;\n  color: orange; }\n\n.card-block-easy {\n  background-color: #98fb98; }\n\n.card-block-medium {\n  background-color: #FFFF9E; }\n\n.card-block-hard {\n  background-color: #fa867e; }\n\n.card-img-top {\n  width: auto;\n  height: auto; }\n\n.card-title {\n  padding: 5px;\n  font-size: 20px;\n  font-style: oblique;\n  text-align: center; }\n\n.card-text {\n  padding: 8px;\n  font-size: 15px;\n  font-style: oblique; }\n\nbody {\n  background-color: #f2f2f2 !important;\n  height: 100%; }\n\nh3, h2 {\n  color: orange !important; }\n\n.jobs {\n  padding-left: 9% !important; }\n\n.middle {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n  color: white; }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,MAAM,GAGM;;EAJrB,AAGE,SAHO,AAGN,MAAM,CAAC;IACN,KAAK,EAAE,KAAK,GAAG;;;AAEnB,AAAA,aAAa,AAAA,MAAM,CAAC;EAClB,MAAM,EAAE,cAAc,CAAC,SAAS,GAAG;;;AAErC,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,MAAM,GAAG;;;AAElB,AAAA,gBAAgB,CAAC;EACf,gBAAgB,EAAE,OAAO,GAAG;;;AAE9B,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,OAAO,GAAG;;;AAE9B,AAAA,gBAAgB,CAAC;EACf,gBAAgB,EAAE,OAAO,GAAG;;;AAE9B,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI,GAAG;;;AAEjB,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,MAAM,GAAG;;;AAEvB,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,OAAO,GAAG;;;AAExB,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,kBAAkB;EACpC,MAAM,EAAE,IAAI,GAAG;;;AAEjB,AAAA,EAAE,EAAE,EAAE,CAAC;EACL,KAAK,EAAE,iBAAiB,GAAG;;;AAE7B,AAAA,KAAK,CAAC;EACJ,YAAY,EAAE,aAAa,GAAG;;;AAEhC,AAAA,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,SAAS,EAAE,qBAAqB;EAChC,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK,GAAG"
+}
